@@ -1,8 +1,11 @@
 <?php
-	$dbServer = 'localhost';
-	$dbUsername = 'root';
-	$dbPassword = 'tamuno33';
-	$dbDatabase = 'saide_db';
+
+//dd(getenv("DB_HOST"));
+
+	$dbServer = getenv("DB_HOST");
+	$dbUsername = getenv("DB_USERNAME");
+	$dbPassword = getenv("DB_PASSWORD");
+	$dbDatabase = getenv("DB_NAME");
 
 	$adminConfig = array(
 		'adminUsername' => "ronald",

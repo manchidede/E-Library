@@ -122,7 +122,6 @@
 
 		if(!isset($config) || $force_reload){
 			@include(dirname(__FILE__) . '/config.php');
-
 			$config['dbServer'] = $dbServer;
 			$config['dbDatabase'] = $dbDatabase;
 			$config['dbPassword'] = $dbPassword;

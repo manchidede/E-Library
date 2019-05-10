@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="31d26243-c141-4d8f-9138-edc35c63ce0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LMS/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LMS/App/Handlers/Database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LMS/App/functions/container.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LMS/config/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LMS/config/load-env.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LMS/example.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LMS/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LMS/route/route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS/Users_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/LMS/Users_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS/admin/incFunctions.php" beforeDir="false" afterPath="$PROJECT_DIR$/LMS/admin/incFunctions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS/books_count.php" beforeDir="false" afterPath="$PROJECT_DIR$/LMS/books_count.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/LMS/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS/datalist.php" beforeDir="false" afterPath="$PROJECT_DIR$/LMS/datalist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/LMS/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/LMS/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS/issue_count.php" beforeDir="false" afterPath="$PROJECT_DIR$/LMS/issue_count.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS/magazines_count.php" beforeDir="false" afterPath="$PROJECT_DIR$/LMS/magazines_count.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS/members_count.php" beforeDir="false" afterPath="$PROJECT_DIR$/LMS/members_count.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS/newspapers_count.php" beforeDir="false" afterPath="$PROJECT_DIR$/LMS/newspapers_count.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS/not_returned.php" beforeDir="false" afterPath="$PROJECT_DIR$/LMS/not_returned.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS/returned_count.php" beforeDir="false" afterPath="$PROJECT_DIR$/LMS/returned_count.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LMS/settings-manager.php" beforeDir="false" afterPath="$PROJECT_DIR$/LMS/settings-manager.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1210405156">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="env" value="3" />
+          <entry key="md5" value="1" />
+          <entry key="php" value="46" />
+          <entry key="sql" value="1" />
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key=".env file" value="3" />
+          <entry key="PHP" value="46" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="SQL" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="env" value="68" />
+          <entry key="php" value="1298" />
+          <entry key="txt" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key=".env file" value="68" />
+          <entry key="PHP" value="1298" />
+          <entry key="PLAIN_TEXT" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LMS/Users_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LMS/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" lean-forward="true" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LMS/example.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LMS/datalist.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="603" column="28" lean-forward="true" selection-start-line="603" selection-start-column="28" selection-end-line="603" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+                <element signature="e#7363#9535#0#PHP" />
+                <element signature="e#9526#10285#0#PHP" />
+                <element signature="e#10276#11794#0#PHP" />
+                <element signature="e#11785#11859#0#PHP" />
+                <element signature="e#11856#11984#0#PHP" />
+                <element signature="e#11975#14189#0#PHP" />
+                <element signature="n#style#0;n#textarea#0;n#!!top" expanded="true" />
+                <element signature="e#101#105#0" expanded="true" />
+                <element signature="e#133#137#0" expanded="true" />
+                <element signature="e#154#158#0" expanded="true" />
+                <element signature="e#159#163#0" expanded="true" />
+                <element signature="e#14180#16133#0#PHP" />
+                <element signature="e#16130#16592#0#PHP" />
+                <element signature="e#16583#16634#0#PHP" />
+                <element signature="e#16628#17033#0#PHP" />
+                <element signature="e#17073#17573#0#PHP" />
+                <element signature="e#17722#21636#0#PHP" />
+                <element signature="e#21714#22148#0#PHP" />
+                <element signature="e#22874#23029#0#PHP" />
+                <element signature="e#23342#23383#0#PHP" />
+                <element signature="e#23456#25287#0#PHP" />
+                <element signature="n#style#0;n#th#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+                <element signature="e#24#30#0" expanded="true" />
+                <element signature="e#40#46#0" expanded="true" />
+                <element signature="e#11#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>TableTitle</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/LMS/updateDB.php" />
+        <option value="$PROJECT_DIR$/LMS/lib.php" />
+        <option value="$PROJECT_DIR$/LMS/settings-manager.php" />
+        <option value="$PROJECT_DIR$/LMS/home.php" />
+        <option value="$PROJECT_DIR$/LMS/main.php" />
+        <option value="$PROJECT_DIR$/LMS/index.php" />
+        <option value="$PROJECT_DIR$/LMS/config/load-env.php" />
+        <option value="$PROJECT_DIR$/LMS/config/Database.php" />
+        <option value="$PROJECT_DIR$/LMS/.env" />
+        <option value="$PROJECT_DIR$/LMS/App/functions/container.php" />
+        <option value="$PROJECT_DIR$/LMS/config/autoload.php" />
+        <option value="$PROJECT_DIR$/LMS/App/Handlers/Database.php" />
+        <option value="$PROJECT_DIR$/LMS/members_count.php" />
+        <option value="$PROJECT_DIR$/LMS/books_count.php" />
+        <option value="$PROJECT_DIR$/LMS/magazines_count.php" />
+        <option value="$PROJECT_DIR$/LMS/newspapers_count.php" />
+        <option value="$PROJECT_DIR$/LMS/issue_count.php" />
+        <option value="$PROJECT_DIR$/LMS/returned_count.php" />
+        <option value="$PROJECT_DIR$/LMS/not_returned.php" />
+        <option value="$PROJECT_DIR$/LMS/db.php" />
+        <option value="$PROJECT_DIR$/LMS/route/route.php" />
+        <option value="$PROJECT_DIR$/LMS/config.php" />
+        <option value="$PROJECT_DIR$/LMS/datalist.php" />
+        <option value="$PROJECT_DIR$/LMS/Users_view.php" />
+        <option value="$PROJECT_DIR$/LMS/admin/incFunctions.php" />
+        <option value="$PROJECT_DIR$/LMS/example.env" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/LMS/bower_components/Flot/package.json" />
+      <path value="$PROJECT_DIR$/LMS/bower_components/bootstrap-datepicker/package.json" />
+      <path value="$PROJECT_DIR$/LMS/bower_components/bootstrap-daterangepicker/package.json" />
+      <path value="$PROJECT_DIR$/LMS/bower_components/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/LMS/bower_components/chart.js/package.json" />
+      <path value="$PROJECT_DIR$/LMS/bower_components/ckeditor/package.json" />
+      <path value="$PROJECT_DIR$/LMS/bower_components/eve-raphael/package.json" />
+      <path value="$PROJECT_DIR$/LMS/bower_components/ion.rangeSlider/package.json" />
+      <path value="$PROJECT_DIR$/LMS/bower_components/jquery-knob/package.json" />
+      <path value="$PROJECT_DIR$/LMS/bower_components/jquery-slimscroll/package.json" />
+      <path value="$PROJECT_DIR$/LMS/bower_components/jquery-ui/package.json" />
+      <path value="$PROJECT_DIR$/LMS/bower_components/morris.js/package.json" />
+      <path value="$PROJECT_DIR$/LMS/bower_components/select2/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-34" />
+    <option name="y" value="14" />
+    <option name="width" value="1342" />
+    <option name="height" value="653" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tonye_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tonye_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tonye_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tonye_project" type="462c0819:PsiDirectoryNode" />
+              <item name="LMS" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31d26243-c141-4d8f-9138-edc35c63ce0f" name="Default Changelist" comment="" />
+      <created>1557488291125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557488291125</updated>
+      <workItem from="1557488292568" duration="15394000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15394000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="-11" width="1368" height="745" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LMS/database/saide_db.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/READ ME FIRST !!!!.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/READ ME FIRST !!!!.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/setup.md5">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/language.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7231">
+          <folding>
+            <element signature="e#116#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/setup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="338" column="32" lean-forward="true" selection-start-line="338" selection-start-column="32" selection-end-line="338" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/defaultLang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/updateDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/settings-manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-430">
+          <caret line="87" column="29" lean-forward="true" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-431">
+          <caret line="80" column="13" lean-forward="true" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/incCommon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="60" column="32" lean-forward="true" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#197#204#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="401" column="9" selection-start-line="401" selection-start-column="9" selection-end-line="401" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/config/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/NewsPapers_autofill.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/newspapers_count.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/magazines_count.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/books_count.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/members_count.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/issue_count.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/route/route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="177" lean-forward="true" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/App/functions/container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/App/Handlers/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/not_returned.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2236">
+          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/config/load-env.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/config/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/admin/incFunctions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="370" column="27" selection-start-line="370" selection-start-column="27" selection-end-line="370" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#57#64#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/datalist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="603" column="28" lean-forward="true" selection-start-line="603" selection-start-column="28" selection-end-line="603" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+            <element signature="e#7363#9535#0#PHP" />
+            <element signature="e#9526#10285#0#PHP" />
+            <element signature="e#10276#11794#0#PHP" />
+            <element signature="e#11785#11859#0#PHP" />
+            <element signature="e#11856#11984#0#PHP" />
+            <element signature="e#11975#14189#0#PHP" />
+            <element signature="n#style#0;n#textarea#0;n#!!top" expanded="true" />
+            <element signature="e#101#105#0" expanded="true" />
+            <element signature="e#133#137#0" expanded="true" />
+            <element signature="e#154#158#0" expanded="true" />
+            <element signature="e#159#163#0" expanded="true" />
+            <element signature="e#14180#16133#0#PHP" />
+            <element signature="e#16130#16592#0#PHP" />
+            <element signature="e#16583#16634#0#PHP" />
+            <element signature="e#16628#17033#0#PHP" />
+            <element signature="e#17073#17573#0#PHP" />
+            <element signature="e#17722#21636#0#PHP" />
+            <element signature="e#21714#22148#0#PHP" />
+            <element signature="e#22874#23029#0#PHP" />
+            <element signature="e#23342#23383#0#PHP" />
+            <element signature="e#23456#25287#0#PHP" />
+            <element signature="n#style#0;n#th#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="e#24#30#0" expanded="true" />
+            <element signature="e#40#46#0" expanded="true" />
+            <element signature="e#11#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/returned_count.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/Users_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" lean-forward="true" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS/example.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

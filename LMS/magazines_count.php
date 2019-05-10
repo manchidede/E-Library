@@ -1,5 +1,6 @@
 <?php
-$con=mysqli_connect("localhost","root","","saide_db");
+
+$con=db()->con();
 // Check connection
 if (mysqli_connect_errno())
   {

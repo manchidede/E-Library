@@ -367,9 +367,9 @@
 		}
 	}
 	########################################################################
-	function sqlValue($statment){
-		// executes a statment that retreives a single data value and returns the value retrieved
-		if(!$res=sql($statment, $eo)){
+	function sqlValue($statement){
+		// executes a statement that retrieves a single data value and returns the value retrieved
+		if(!$res=sql($statement, $eo)){
 			return FALSE;
 		}
 		if(!$row=db_fetch_row($res)){
@@ -560,7 +560,7 @@
 	}
 	########################################################################
 	function isEmail($email){
-		if(preg_match('/^([*+!.&#$¦\'\\%\/0-9a-z^_`{}=?~:-]+)@(([0-9a-z-]+\.)+[0-9a-z]{2,45})$/i', $email)){
+		if(preg_match('/^([*+!.&#$ï¿½\'\\%\/0-9a-z^_`{}=?~:-]+)@(([0-9a-z-]+\.)+[0-9a-z]{2,45})$/i', $email)){
 			return $email;
 		}else{
 			return FALSE;

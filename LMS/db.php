@@ -8,16 +8,15 @@
 	// define('DATABASE', 'mssql'); 
 
 
+use App\Handlers\Database;
 
-
-	if(!defined('DATABASE')){
+if(!defined('DATABASE')){
 		if(function_exists('mysqli_connect')){
 			define('DATABASE', 'mysqli');
 		}else{
 			define('DATABASE', 'mysql');
 		}
 	}
-
 
 
 	define('mysql_charset', 'utf8');
@@ -157,6 +156,7 @@
 	}
 
 	function db_connect($host = NULL, $username = NULL, $passwd = NULL, $dbname = NULL, $port = NULL, $socket = NULL){
+
 		switch(DATABASE){
 			case 'mysql':
 				if($host === NULL) $host = ini_get("mysql.default_host");
@@ -175,7 +175,9 @@
 				if($dbname === NULL) $dbname = "";
 				if($port === NULL) $port = ini_get("mysqli.default_port");
 				if($socket === NULL) $socket = ini_get("mysqli.default_socket");
-				$link = mysqli_connect($host, $username, $passwd, $dbname, $port, $socket);
+
+				$link = db()->con();
+//				$link = mysqli_connect($host, $username, $passwd, $dbname, $port, $socket);
 				if(!$link) return false;
 				db_link($link); /* db_link() can now be used to retrieve the db link from anywhere */
 				mysqli_set_charset($link, mysql_charset);

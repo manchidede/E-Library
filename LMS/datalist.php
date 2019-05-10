@@ -117,7 +117,6 @@ class DataList{
 	function Render(){
 	// get post and get variables
 		global $Translation;
-
 		$adminConfig = config('adminConfig');
 
 		$FiltersPerGroup = 4;
@@ -258,6 +257,9 @@ class DataList{
 			if(!$SelectedID) $insert_status = 'record-added-error=' . rand();
 
 			// compose filters and sorting
+            //
+//			$filtersGET = '';
+			//
 			foreach($this->filterers as $filterer => $caption){
 				if($_REQUEST['filterer_' . $filterer] != '') $filtersGET .= '&filterer_' . $filterer . '=' . urlencode($_REQUEST['filterer_' . $filterer]);
 			}
@@ -595,10 +597,19 @@ class DataList{
 
 	// get count of matching records ...
 		$TempQuery = 'SELECT count(1) from '.$this->QueryFrom.' '.$this->QueryWhere;
+
+		/**
+		 * Issue
+		 */
 		$RecordCount = sqlValue($TempQuery);
+		/**
+		 * End Issue
+		 */
+		dd($RecordCount);
 		$FieldCountTV = count($this->QueryFieldsTV);
 		$FieldCountCSV = count($this->QueryFieldsCSV);
 		$FieldCountFilters = count($this->QueryFieldsFilters);
+
 		if(!$RecordCount){
 			$FirstRecord=1;
 		}
